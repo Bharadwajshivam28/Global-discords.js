@@ -23,9 +23,9 @@ const client = new Client({
 
 const token = process.env['token']
 
-const sourceChannelId = '1085571725875499018';
+const sourceChannelId = '1086385960385789982';
 
-const targetChannelIds = ["1085571854032445470", "1085571889516269599"];
+const targetChannelIds = ["1086385995848626247", "1086386022004297818"];
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
